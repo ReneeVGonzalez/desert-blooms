@@ -1,0 +1,240 @@
+/***** BASE STYLES *****/
+
+@media screen and (max-width:1199px) {0
+  #.full-width: 100%;
+  #.half-width: 50%;
+  #.third-width: 30%;
+   }
+}
+
+.body{
+  font-family: 'Lora', serif;
+}
+
+#about, #products, #contact {
+   height: 900px;
+}
+
+/***** GRID *****/
+.full-width{
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.half-width{
+   width: 550px;
+   float: left;
+}
+
+.third-width{
+   width: 400px;
+   float: left;
+}
+
+/***** HEADER *****/
+header{
+  height:875px;
+  background-image: url('../img-db/multi-cactus.jpg');
+  background-size: cover;
+}
+
+header h1{
+   padding:50px 0;
+   font-size: 30px;
+   color: #eff6ec;
+   font-family: Lora;
+}
+
+header h2{
+   width:500px;
+   clear: both;
+   line-height:80px;
+   font-family: Lora;
+   font-size: 72px;
+   color: #eff6ec;
+   padding: 20px 0;
+}
+
+header h2 span{
+  color: #2b2b2b;
+}
+
+/***** NAV *****/
+nav{
+   float: right;
+}
+
+nav ul li{
+   display: inline-block;
+
+}
+
+nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 18px;
+   color: #828282;
+   padding-left: 80px;
+
+}
+/***** ABOUT *****/
+#about .full width{
+   padding: 20px 0;
+}
+
+#about h2{
+   font-family: Lora;
+   font-size: 36px;
+   margin-left: 0px;
+   margin-top: 150px;
+   font-weight: lighter;
+}
+
+#about p{
+   font-size: 25px;
+   color: #7f7f7f;
+   line-height: 40px;
+   padding-right 50px;
+   font-family: Lora, serif;
+   font-weight: lighter;
+}
+
+#about-img {
+   height: 400px;
+   width: 620px;
+   margin-left: 70px;
+   margin-top: 100px;
+   border: solid;
+}
+
+/***** Products *****/
+#products {
+   background-color: #eff6ec;
+   text-align: center;
+   font-family: Lora, serif;
+   background-size: contain;
+}
+
+#products .full-width{
+   padding: 50px 0;
+}
+
+#products h2{
+   font-family: Lora;
+   font-weight: lighter;
+   font-size: 38px;
+   text-align: left;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+
+}
+
+#products img{
+   padding-bottom: 30px;
+   padding-top: 35px;
+   height: 200px;
+   width: 200px;
+}
+
+#products h3{
+   font-size: 24px;
+   width:400px;
+   margin: 0 auto;
+   color: #2B2B2B;
+}
+
+#products p{
+   font-family: Lora, serif;
+   font-weight: lighter;
+   font-size: 18px;
+   line-height: 30px;
+   color: #7f7f7f;
+   padding: 0 35px;
+}
+
+/***** footer *****/
+
+#footer-img{
+   height: 200px;
+   width: 600px;
+   margin-left: 50px;
+
+}
+
+#contact {
+
+   font-family: Lora, serif;
+}
+
+#contact .full-width{
+   padding: 110px 0;
+
+}
+
+#contact-img{
+   border: 12px solid #ffffff;
+   height: 400px;
+   width: 500px;
+   margin-left: 30px;
+   margin-top: 0px;
+
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul{
+   padding-left: 115px;
+}
+
+#envelope{
+   padding: 0 10px 0 150px;
+     color: #7f7f7f;
+     text-decoration: none;
+}
+
+#contact h2{
+   font-family: Lora;
+   color: #2B2B2B;
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 85px;
+}
+
+#email-header{
+   font-size: 29px;
+   font-weight: lighter;
+   margin: -30px 0 5px 0;
+   text-align: center;
+      color: #7f7f7f;
+}
+
+#socialmedia-header{
+   font-size: 29px;
+   font-weight: lighter;
+   text-align: center;
+      color: #7f7f7f;
+}
+
+#contact a{
+   text-decoration: none;
+   font-size: 28px;
+   font-weight: bold;
+   text-align: center;
+   color: #7f7f7f;
+}
+
+#contact ul{
+   list-style: none;
+   text-align: center;
+      color: #7f7f7f;
+}
+
+#contact ul li{
+   display: inline-block;
+   text-align: center;
+      color: #7f7f7f;
+}
+
+#contact ul img{
+   padding-right: 48;
+   text-align: center;
+}
